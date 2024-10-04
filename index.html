@@ -11,10 +11,25 @@
 
 <body>
 
-  <section class="flex justify-center items-center mt-80">
-    <div class="card bg-primary text-primary-content w-96">
-        <div class="card-body">
-          
+  <section class="flex justify-center items-center flex-col mt-80">
+    <p class="text-red-400 font-semibold text-xl" id="error"></p>
+    <div id="playerOne" class=" card bg-primary text-primary-content w-96">
+        <div  class="card-body">
+            <h1 class="text-3xl font-bold text-purple-500">Player-1</h1>
+            <div class="flex gap-3">
+                <input id="inputField-1" type="text" placeholder="Type here text" class="input font-semibold text-xl input-bordered bg-transparent w-full max-w-xs" />
+                <button id="btn_1" class="btn text-xl font-semibold">Click</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div id="playerTow" class=" hidden card bg-primary text-primary-content w-96">
+        <div  class="card-body">
+            <h1 class="text-3xl font-bold text-purple-500">Player-2</h1>
+            <div class="flex gap-3">
+                <input id="inputField-2" type="text" placeholder="Type here" class="input bg-transparent font-semibold text-xl input-bordered w-full max-w-xs" />
+                <button id="btn_2" class="btn text-xl font-semibold">Click</button>
+            </div>
           </div>
         </div>
       </div>
